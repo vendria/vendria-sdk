@@ -9,7 +9,7 @@ export class VendriaApiClient {
     public customers: CustomerClient;
 
     constructor(config: BaseClientConfig) {
-        const axiosInstance = createAxiosInstance(config.token, config.apiUrl);
+        const axiosInstance = createAxiosInstance(config.token);
 
         this.messages = new MessageClient(axiosInstance, config.onError);
         this.customers = new CustomerClient(axiosInstance, config.onError);

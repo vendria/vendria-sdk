@@ -1,6 +1,6 @@
 {
   "name": "@sergiobanhos/vendria-sdk",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "private": false,
   "description": "SDK for Vendria API using Node.js and TypeScript",
   "main": "dist/index.js",

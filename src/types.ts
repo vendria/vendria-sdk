@@ -1,7 +1,5 @@
 export interface BaseClientConfig {
     token: string;
-    phoneNumberId: string;
-    apiUrl?: string;
     onError?: (error: unknown) => void;
 }
 
